@@ -147,6 +147,7 @@ main {
 }
 
 .dice {
+  display: block;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -162,4 +163,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
 }
